@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class PlayerTest {
 
     @Test
-    void getName() {
+    void testGetName() {
 
         final String inputValue = "Vano";
         final String expectesValue = inputValue;
@@ -20,7 +20,7 @@ class PlayerTest {
     }
 
     @Test
-    void getFigure() {
+    void testGetFigure() {
 
         final Figure inputValue = Figure.X;
         final Figure expectesValue = inputValue;
